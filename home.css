@@ -1,0 +1,37 @@
+@font-face { font-family: EdgeOfGalaxy; src: url('fonts/Promethean3DItalic-eBD3.otf'); } 
+body {
+  background-color: #f5e483;
+  display: block;
+  height: 100vh;
+}
+.main-body {
+  height: 85vh;
+  width: 100vw;
+}
+
+.inner-body {
+  background: url(assets/main-page/starfleet-rainbow-yellow.png) no-repeat;
+  background-position: center;
+  background-size: 900px 650px;
+  height: 100%;
+}
+
+h1 {
+  background-color: black;
+  color: #f5e483;
+  font-family: EdgeOfGalaxy;
+  letter-spacing: 8px;
+  margin: 1em;
+  padding: .25em;
+  font-size: 32px;
+}
+@media (max-height: 700px) {
+  .inner-body {
+    background-size: 600px 450px;
+  }
+@media (max-width: 750px) {
+    .inner-body {
+      background-size: 500px 350px;
+    }
+  }
+}
