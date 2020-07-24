@@ -20,30 +20,30 @@
 <body id="page-top">
   <!-- Navigation -->
   <nav class="fixed-top" id="main-nav">
-    <div class="container">
-      <a href="#page-top" class="col-md-7">Full-Stack Projects</a>
+    <div class="fs-header-title">
+        <a href="#page-top" id="header-title-1">Full-Stack </a>
       <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
         aria-expanded="false" aria-label="Toggle navigation"> -->
         <!-- <span class="navbar-toggler-icon"></span> -->
       <!-- </button> -->
       <!-- <div class="collapse navbar-collapse" id="navbarResponsive"> -->
         <!-- <ul class="navbar-nav ml-auto"> -->
-        <div class="menu col-md-5"> 
+        <div class="menu"> 
             <div class="nav-menu-icon"></div>
             <div class="nav-menu-icon"></div>
             <div class="nav-menu-icon"></div>
-        <ul class="nav-item-list float-right">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="../home.html">Back to Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="#gateway-mentoring">School Store Project</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="#Q-Redo">Mentoring App Project</a>
-          </li>
-        </ul>
-      </div>
+            <ul class="nav-item-list float-right">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="../home.html">Home Page &lt</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="#gateway-mentoring">School Store &lt</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="#Q-Redo">Mentor App &lt</a>
+            </li>
+            </ul>
+        </div>
     </div>
   </nav>
  
@@ -105,11 +105,11 @@
         </div>
       </div>
       </div>
+      <div id="Q-Redo"></div>
     </section>
 
-    <hr class="myHr" />
-
-    <section id="Q-Redo">
+    <hr class="myHr"/>
+    <section class="Q-Redo-section">
         <div class="container">
         <div class="row">
         <h3>Q-2:</h3>
@@ -184,12 +184,15 @@
     var i;
     
     for (i = 0; i < coll.length; i++) {
-        console.log('hi');
       coll[i].addEventListener("click", function() {
         this.classList.toggle("open-menu");
         var content = this.nextElementSibling;
         if (content.style.display === "block") {
           content.style.display = "none";
+          var header = document.getElementById('getElementsByClassName');
+          var att = document.createAttribute("class");
+          att.value = "adjust-text-height";
+          header.setAttributeNode(att);
         } else {
           content.style.display = "block";
         }
