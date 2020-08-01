@@ -8,20 +8,27 @@
     <link rel="shortcut icon" href="./assets/main-page/starfleet-colors.png">
     <link href="home.css" rel="stylesheet">  
     <title>Kara's Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#phaser_audio").get(0).play();
+      });
+    </script>
 </head>
   
 <body>
+  <audio id="phaser_audio" src="./assets/main-page/tng_phaser7_clean.mp3"></audio>
     <header>
         <h1>Kara Cavanaugh</h1>
     </header>
     <div class="main-body">
       <div class="inner-body">
-        <div class="developer-info">
-          <a href="./front-end-page/fe-page.html">UI/UX Sites</a>
-          <a href="./full-stack-page/fs-page.html">Full-stack Sites</a>
+        <div class="development-container">
+          <a id="fe-site" href="./front-end-page/fe-page.html">UI/UX Sites</a>
+          <a id="fs-site" href="./full-stack-page/fs-page.html">Full-stack Sites</a>
         </div>
-        <div class="writer-info">
-          <a href="http://thatcrazykara.com/freelance-author-kara/">Writing/ Editing</a>
+        <div class="writing-container">
+          <a id="writing-site" href="http://thatcrazykara.com/freelance-author-kara/">Writing/ Editing</a>
         </div>
       </div>
     </div>

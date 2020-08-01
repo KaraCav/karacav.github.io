@@ -22,9 +22,46 @@ h1 {
   font-family: EdgeOfGalaxy;
   letter-spacing: 8px;
   margin: 1em;
-  padding: .25em;
+  margin-right: -10px;
+  padding: .25em 1em;
   font-size: 32px;
 }
+
+a {
+    list-style: none;
+    font-style: italic;
+    position: relative;
+    animation: slide 1.5s;
+    font-size: 28px;
+}
+@keyframes slide {
+    0%   {left: 1400px;}
+    100% {left: 0px;}
+}
+
+.development-container {
+  padding-top: 2vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+#fe-site {
+  color: #832db8;
+}
+
+#fs-site {
+  color: #f74385;
+}
+
+.writing-container {
+  padding-top: 70vh;
+  text-align: center;
+}
+
+#writing-site {
+  color: #075f33;
+}
+
 @media (max-height: 700px) {
   .inner-body {
     background-size: 600px 450px;

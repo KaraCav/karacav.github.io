@@ -12,12 +12,19 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function() {
+    $("#beam_audio").get(0).play();
+});
+  </script>
+
   <!-- CAROUSEL CSS HERE -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./fs-page.css">
 </head>
 
 <body id="page-top">
+  <audio id="beam_audio" src="../assets/main-page/tng_transporter2_clean_top.mp3"></audio>
   <!-- Navigation -->
   <nav class="fixed-top" id="main-nav">
     <div class="fs-header-title">
