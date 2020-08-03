@@ -54,7 +54,7 @@
   list-style: none;
   font-style: italic;
   position: relative;
-  animation: slide 1.5s;
+  animation: slide 3s;
   font-size: 28px;
 }
 @keyframes slide {
@@ -120,7 +120,6 @@
   margin: 10px;
   border-right: 15px solid #10b05f;
   border-bottom: 15px solid #075f33;
-  /* border: 10px solid #f3c8a2; */
   border-top: 15px solid #e2e2e2;
   border-left: 15px solid #b9b9b9;
   background-color: #f1f1f1;
@@ -147,6 +146,23 @@
   /* background-color: #fff2b0;
   color: #430396; */
 }
+
+/* Specific to Front End */
+iframe {
+  min-width: 1000px;
+  height: 800px;
+}
+
+#best-eats-site-carousel {
+  max-width: 80vw;
+}
+
+h2 {
+  color: purple;
+}
+
+
+/* all media queries */
 
 @media (max-width: 992px) {
   .gateway-mentoring-section > div h4, .Q-Redo-section > div h4 {

@@ -1,69 +1,114 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="Kara Cavanaugh Portfolio of Full-Stack Projects">
-<link rel="shortcut icon" href="../assets/full-stack-page/star-favicon.ico">
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Kara Cavanaugh Portfolio of Full-Stack Projects">
+  <link rel="shortcut icon" href="../assets/full-stack-page/star-favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
 
-<!-- CAROUSEL CSS HERE -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- CAROUSEL CSS HERE -->
-<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="./fe-page.css">
+  <!-- CAROUSEL CSS HERE -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function() {
+    $("#beam_audio").get(0).play();
+});
+  </script>
+
+  <!-- CAROUSEL CSS HERE -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../dev-pages.css">
 </head>
 
-<body>
-<div style="background-color: #f1a79d; padding:10px">
-    <div id="front-end-section1">
-      <div id="services" style="padding-top:10px">
-        <h1 style="padding-bottom:10px">Front End Projects</h1>
+<body id="page-top">
+  <audio id="beam_audio" src="../assets/main-page/tng_transporter2_clean_top.mp3"></audio>
+  <!-- Navigation -->
+  <nav class="fixed-top" id="main-nav">
+    <div class="fs-header-title">
+        <a href="#page-top" id="header-title-1">Front-end </a>
+        <div class="menu"> 
+            <div class="nav-menu-icon"></div>
+            <div class="nav-menu-icon"></div>
+            <div class="nav-menu-icon"></div>
+            <ul class="nav-item-list float-right">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="../home.html">Home Page &lt</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="#front-end-section-1">Section One</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="#Q-Redo">Mentor App &lt</a>
+            </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
 
-        <div>
-          <h2 style="padding-bottom:10px; padding-left:4vw">Wordpress Restaurant Site: </h2>
-          <div id="best-eats-site-carousel">
+  <!--  Best Eats Section STARTS -->
+  <div id="front-end-section-1">--</div>
+  <section class="gateway-mentoring-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <h3>Best Eats Restaurant Site:</h3>
+
+          <div class="col-md-8 mx-auto">
             <div class="row">
-              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <div id="bestEatsCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#bestEatsCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#bestEatsCarousel" data-slide-to="1"></li>
+                  <li data-target="#bestEatsCarousel" data-slide-to="2"></li>
+                  <li data-target="#bestEatsCarousel" data-slide-to="3"></li>
                 </ol>
-                <!-- Wrapper for slides -->
+
                 <div class="carousel-inner">
                   <div class="item active">
-                    <img src="../assets/full-stack-page/Wordpress0.png" alt="Wordpress-view-homepage">
+                    <img src="../assets/full-stack-page/Wordpress0.png" alt="Best Eats Home Page">
+                    <div class="carousel-description">Video Landing Page</div>
                   </div>
                   <div class="item">
-                    <img src="../assets/full-stack-page/Wordpress1.png" alt="Wordpress-view-2">
+                    <img src="../assets/full-stack-page/Wordpress1.png" alt="Best Eats Signature Dishes">
+                    <div class="carousel-description">Signature Dishes</div>
                   </div>
                   <div class="item">
-                    <img src="../assets/full-stack-page/Wordpress-menu.png" alt="Wordpress-view-menu">
+                    <img src="../assets/full-stack-page/Wordpress-menu.png" alt="Best Eats Menu">
+                    <div class="carousel-description">Restaurant Menu</div>
+                  </div>
+                  <div class="item">
+                    <img src="../assets/full-stack-page/wordpress-best-eats-2.PNG" alt="Best Eats Contact Page">
+                    <div class="carousel-description">Contact Us Page</div>
                   </div>
                 </div>
               </div>
-              <!-- Left and right controls -->
-              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+
+              <a class="left carousel-control" href="#bestEatsCarousel" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
                 <span class="sr-only">Previous</span>
               </a>
-              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <a class="right carousel-control" href="#bestEatsCarousel" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>
                 <span class="sr-only">Next</span>
               </a>
             </div>
           </div>
-          <h3 class="about-projects">I created this website using Wordpress. The full site can be viewed
-            <a href="http://www.thatcrazykara.com/behome"> here</a>.
-          </h3>
+       
+        <div class="col-md-4 mx-auto">
+            <h4 class="about-projects">
+                This is a Wordpress site that I created for a mid-size restaurant. <br>
+                The full site can be viewed <a href="http://thatcrazykara.com/behome/">here</a> 
+           </h4>
         </div>
       </div>
-    </div>
+      </div>
+      <div id="front-end-section-2"></div>
+    </section>
+
+    <hr class="myHr"/>
     <div id="front-end-section1">
       <div id="services" style="padding-top:10px">
         <h2 style="padding-bottom:10px">Replication of Bootstrap Site:</h2>
