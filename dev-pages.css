@@ -148,7 +148,8 @@
 }
 
 /* Specific to Front End */
-iframe {
+
+.iframe {
   min-width: 1000px;
   height: 800px;
 }
