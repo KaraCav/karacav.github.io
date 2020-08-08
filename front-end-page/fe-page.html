@@ -28,20 +28,20 @@
   <!-- Navigation -->
   <nav class="fixed-top" id="main-nav">
     <div class="fs-header-title">
-        <a href="#page-top" id="header-title-1">Front-end </a>
+        <a href="#page-top" id="header-title-1">Front-End </a>
         <div class="menu"> 
             <div class="nav-menu-icon"></div>
             <div class="nav-menu-icon"></div>
             <div class="nav-menu-icon"></div>
             <ul class="nav-item-list float-right">
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="../home.html">Home Page &lt</a>
+                <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="../index.html">Home Page &lt</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="#front-end-section-1">Section One</a>
+                <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="../full-stack-page/fs-page.html">Full-Stack &lt</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="#Q-Redo">Mentor App &lt</a>
+                <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="http://thatcrazykara.com/freelance-author-kara/">Writing &lt</a>
             </li>
             </ul>
         </div>
@@ -49,7 +49,7 @@
   </nav>
 
   <!--  Best Eats Section STARTS -->
-  <div id="front-end-section-1">--</div>
+  <!-- <div id="front-end-section-1">--</div> -->
   <section class="gateway-mentoring-section best-eats-section">
     <div class="container">
       <div class="row">
@@ -105,10 +105,10 @@
         </div>
       </div>
       </div>
-      <div id="front-end-section-2"></div>
-    </section>
+     </div>
+  </section>
 
-    <hr class="myHr"/>
+  <hr class="myHr"/>
     <!-- <div id="front-end-section1"> -->
       <!-- <div id="services" style="padding-top:10px">
         <h2 style="padding-bottom:10px">Replication of Bootstrap Site:</h2>
@@ -120,18 +120,44 @@
         </h3>
       </div> -->
     <!-- </div> -->
-    <div class="mini-projects">
-      <div id="front-end-section-1">
-        <div>
-          <h2 style="padding-bottom:10px">Drum Kit:</h2>
-          <iframe class="myIframe2" src="https://karacav.github.io/JS30-Day1/"></iframe>
-        </div>
-        <div>
-          <h2 style="padding-top:15vh; padding-bottom:10px">Photo Panels:</h2>
-          <iframe class="myIframe2" src="https://karacav.github.io/JS30-Day5-FlexImageGallery/"></iframe>
-        </div>
+    
+  <section class="gateway-mentoring-section mini-projects">
+      <h3>Javascript Mini-Projects:</h3>
+      <div>
+          <h4 style="padding-bottom:10px">Drum Kit:</h2>
+          <iframe class="my-iframe" src="https://karacav.github.io/JS30-Day1/"></iframe>
       </div>
-    </div>
+      <div>
+          <h4 style="padding-bottom:10px">Photo Panels:</h2>
+          <iframe class="my-iframe" src="https://karacav.github.io/JS30-Day5-FlexImageGallery/"></iframe>
+      </div>
+  </section>
+    <!-- </div> -->
   </div>
 </body>
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white myOther">Copyright &copy; Kara Cavanaugh 2020</p>
+  </div>
+</footer>
+
+<script>
+  var coll = document.getElementsByClassName("menu");
+  var i;
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("open-menu");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+        var header = document.getElementById('getElementsByClassName');
+        var att = document.createAttribute("class");
+        att.value = "adjust-text-height";
+        header.setAttributeNode(att);
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>
 </html>

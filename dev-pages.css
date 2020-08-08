@@ -62,7 +62,10 @@
   100% {left: 0px;}
 }
 .nav-item-list > li > a {
-  margin: 1em;
+  float: right;
+  margin: 0;
+  margin-right: 1em;
+  color: gold;
 }
 
 .nav-menu-icon {
@@ -129,11 +132,24 @@
 
 .best-eats-section {
   border-right: 15px solid #ebcdf5;
-  border-bottom: 15px solid #832db8;
+  border-bottom: 15px solid #832db8; 
 }
 
 .gateway-mentoring-section > div h4 {
   background-color: #defddc;
+}
+
+.best-eats-section > div h4 {
+  background-color: #e7d2fb;
+}
+
+.mini-projects {
+  text-align: center;
+  border-right: 15px solid #ffb5d1;
+  border-bottom: 15px solid #f96098;
+}
+.mini-projects > div h4 {
+  background-color: #ffb5d1;
 }
 
 .Q-Redo-section > div h4 {
@@ -155,9 +171,9 @@
 
 /* Specific to Front End */
 
-.iframe {
-  min-width: 1000px;
-  height: 800px;
+.my-iframe {
+  min-width: 65vw;
+  height: 50vh;
 }
 
 #best-eats-site-carousel {
