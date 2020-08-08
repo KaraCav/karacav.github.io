@@ -126,6 +126,12 @@
   margin-top: 10vh; 
           /* MARGIN IS ONLY UNTIL I FIX THE TOGGLE MENU AT TOP- currently it's blocking view */
 }
+
+.best-eats-section {
+  border-right: 15px solid #ebcdf5;
+  border-bottom: 15px solid #832db8;
+}
+
 .gateway-mentoring-section > div h4 {
   background-color: #defddc;
 }
