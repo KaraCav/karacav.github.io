@@ -1,0 +1,19 @@
+Content-Type: application/rss+xml
+    ...
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <ttl>30</ttl>
+    <item>
+      <guid>urn:uuid:42667ad2-0ffd-4f04-973f-732564622d7e</guid>
+      <title>A week in review, September 19th, 2021</title>
+      <link>https://developer.amazon.com/public/community/blog</link>
+      <pubDate>2016-05-23T00:00:00.0Z</pubDate>
+      <description>
+        Here is an R. S. S. feed designed to simulate a proper news feed created by a real developer. I'm making this while I eat a piece of pizza. It's
+       very good pizza- gluten free, of course, and covered in many cheeses. Let's hope this works.
+      </description>
+     </item>
+  </channel>
+</rss>
