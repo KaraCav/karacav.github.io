@@ -3,12 +3,12 @@
   <channel>
     <ttl>30</ttl>
     <item>
-      <guid>urn:uuid:42667ad2-0ffd-4f04-973f-732564622d72</guid>
+      <guid>urn:uuid:42667ad2-0ffd-4f04-973f-732564622d73</guid>
       <title>A week in review, April third</title>
       <link>https://developer.amazon.com/public/community/blog</link>
       <pubDate>2022-04-05T04:00:00.0Z</pubDate>
       <description>
-        Here is an R.S.S. feed designed to test the Alexa simulator and demonstrate a proper news feed. Let's hope this works.
+        Here is an R.S.S. feed designed to test the Alexa simulator. Let's hope this works.
       </description>
      </item>
   </channel>
